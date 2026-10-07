@@ -1,0 +1,17 @@
+{
+  "name": "varint-zigzag-encoder",
+  "version": "0.1.0",
+  "description": "Encode and decode signed integers using Protocol Buffer zigzag varint encoding with bounds-checked bit shifts.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {}
+}
